@@ -1,0 +1,90 @@
+invalid_latitudes  invalid_longitudes
+-----------------  ------------------
+0                  0                 
+negative_healthcare_expenses  negative_healthcare_coverage  negative_income
+----------------------------  ----------------------------  ---------------
+0                             0                             0              
+field_name  field_value  record_count
+----------  -----------  ------------
+GENDER      F            62          
+GENDER      M            49          
+MARITAL     D            8           
+MARITAL     M            41          
+MARITAL     S            17          
+MARITAL     W            1           
+MARITAL     [Missing]    44          
+field_name  field_value  record_count
+----------  -----------  ------------
+ETHNICITY   hispanic     5           
+ETHNICITY   nonhispanic  106         
+RACE        asian        7           
+RACE        black        11          
+RACE        hawaiian     1           
+RACE        white        92          
+invalid_zip_format_count
+------------------------
+0                       
+invalid_fips_format_count  populated_fips_count
+-------------------------  --------------------
+0                          83                  
+field_name  distinct_value_count  missing_count
+----------  --------------------  -------------
+STATE       1                     0            
+COUNTY      12                    0            
+state_values_with_extra_spaces  county_values_with_extra_spaces
+------------------------------  -------------------------------
+0                               0                              
+expenses_with_unexpected_characters  coverage_with_unexpected_characters  income_with_unexpected_characters
+-----------------------------------  -----------------------------------  ---------------------------------
+0                                    0                                    0                                
+first_name_spacing_issues  middle_name_spacing_issues  last_name_spacing_issues  maiden_name_spacing_issues
+-------------------------  --------------------------  ------------------------  --------------------------
+0                          0                           0                         0                         
+ssn_spacing_issues  drivers_license_spacing_issues  passport_spacing_issues
+------------------  ------------------------------  -----------------------
+0                   0                               0                      
+birthplace_spacing_issues
+-------------------------
+0                        
+address_spacing_issues  city_spacing_issues  state_spacing_issues  county_spacing_issues  zip_spacing_issues
+----------------------  -------------------  --------------------  ---------------------  ------------------
+0                       0                    0                     0                      0                 
+latitude_unexpected_characters  longitude_unexpected_characters  expenses_unexpected_characters  coverage_unexpected_characters  income_unexpected_characters
+------------------------------  -------------------------------  ------------------------------  ------------------------------  ----------------------------
+0                               0                                0                               0                               0                           
+latitude_without_longitude  longitude_without_latitude
+--------------------------  --------------------------
+0                           0                         
+field_name           malformed_count
+-------------------  ---------------
+HEALTHCARE_COVERAGE  0              
+HEALTHCARE_EXPENSES  0              
+INCOME               0              
+LAT                  0              
+LON                  0              
+future_death_dates
+------------------
+0                 
+invalid_birthdate_format_or_calendar  invalid_deathdate_format_or_calendar
+------------------------------------  ------------------------------------
+0                                     0                                   
+death_before_birth_count  deaths_after_age_120
+------------------------  --------------------
+0                         0                   
+gender_spacing_issues  race_spacing_issues  ethnicity_spacing_issues  marital_spacing_issues
+---------------------  -------------------  ------------------------  ----------------------
+0                      0                    0                         0                     
+unexpected_gender_count  marital_values_needing_review
+-----------------------  -----------------------------
+0                        9                            
+field_name  category     record_count
+----------  -----------  ------------
+ETHNICITY   hispanic     5           
+ETHNICITY   nonhispanic  106         
+RACE        asian        7           
+RACE        black        11          
+RACE        hawaiian     1           
+RACE        white        92          
+duplicate_record_groups
+-----------------------
+0                      

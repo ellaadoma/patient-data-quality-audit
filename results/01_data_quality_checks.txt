@@ -1,0 +1,24 @@
+total_records  unique_patient_ids  potential_duplicate_ids
+-------------  ------------------  -----------------------
+111            111                 0                      
+missing_birthdate  missing_gender  missing_race  missing_ethnicity  missing_city  missing_state
+-----------------  --------------  ------------  -----------------  ------------  -------------
+0                  0               0             0                  0             0            
+invalid_or_future_birthdates  invalid_deathdate_formats  death_before_birth
+----------------------------  -------------------------  ------------------
+0                             0                          0                 
+field_name  field_value  record_count
+----------  -----------  ------------
+GENDER      F            62          
+GENDER      M            49          
+MARITAL                  44          
+MARITAL     D            8           
+MARITAL     M            41          
+MARITAL     S            17          
+MARITAL     W            1           
+total_records  missing_marital_status  missing_marital_status_pct
+-------------  ----------------------  --------------------------
+111            44                      39.64                     
+missing_prefix  missing_first_name  missing_middle_name  missing_last_name  missing_suffix  missing_maiden_name  missing_ssn  missing_drivers_license  missing_passport
+--------------  ------------------  -------------------  -----------------  --------------  -------------------  -----------  -----------------------  ----------------
+23              0                   24                   0                  109             79                   0            21                       27              
